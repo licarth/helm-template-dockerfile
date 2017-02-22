@@ -5,4 +5,6 @@ RUN wget -qO helm-template.tar.gz https://github.com/technosophos/helm-template/
 RUN mkdir -p /root/.helm/plugins/template/
 RUN tar -xzf helm-template.tar.gz -C /root/.helm/plugins/template/
 
+WORKDIR /workdir/
+
 ENTRYPOINT ["/bin/helm"]
