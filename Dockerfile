@@ -8,4 +8,4 @@ RUN tar -xzf helm-template.tar.gz -C /root/.helm/plugins/template/
 WORKDIR /workdir/
 
 ENTRYPOINT ["/bin/helm"]
-https://storage.googleapis.com/kubernetes-helm/helm-v2.5.0-linux-amd64.tar.gz
+
